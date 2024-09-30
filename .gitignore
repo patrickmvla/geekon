@@ -1,0 +1,74 @@
+.idea
+logs/
+*.db
+.run/
+testdata/
+
+Dockerfile
+Dockerfile.dev
+dev.dockerfile
+.dockerignore
+
+_docker-compose.yml
+
+logs
+web/
+web-desktop/
+out/
+assets/
+
+test/testdata/**/*.json
+test/sample
+test/providers.json
+test/db.json
+test/providers.json
+test/config.json
+test/config.toml
+whats-new.md
+
+*/mock_data.json
+
+TODO-priv.md
+
+##
+## Parser
+##
+parser/.git
+
+##
+## Web
+##
+web/node_modules
+web/out
+web/out-desktop
+web/web
+web/.next
+web/.idea
+# dependencies
+web/.pnp
+web/.pnp.js
+web/.yarn/install-state.gz
+# testing
+web/coverage
+# next.js
+# production
+web/build
+# misc
+web/.DS_Store
+web/*.pem
+# debug
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+# local env files
+web/.env*.local
+# vercel
+web/.vercel
+# typescript
+web/*.tsbuildinfo
+web/next-env.d.ts
+web/snapshot
+web/logs
+web/analyze
+web/TODO-priv.md
+web/CHANGELOG-priv.md
